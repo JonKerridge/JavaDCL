@@ -1,0 +1,13 @@
+The system comprises three processes running on different IP addresses.
+
+For the purpose of demonstration they are running on the loop-back network 127.0.0.?
+
+The processes MUST be run in the following order:
+
+RunPO2
+RunPO1
+RunSender
+
+The system produces the expected output in each of the console windows
+
+The Java version used  is AdoptOpenJDK\jdk-8.0.232.09-hotspot

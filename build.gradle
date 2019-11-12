@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'JavaDCL'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile 'cspforjava:jcsp:1.1.0'
+}
